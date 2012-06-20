@@ -338,3 +338,18 @@ a img.aligncenter {
 #footer div.menu li:first-of-type:before {
     content: "";
 }
+#mainCol1 {
+    font-size: 14px;
+    line-height: 20px;
+}
+#mainCol1 h2, #mainCol3 h2 {
+    color: #0578ea;
+    font-size: 14px;
+    margin-top: 5px;
+}
+#mainCol1 li {
+    display: inline;
+}
+#mainCol3 li {
+    display: inline;
+}
