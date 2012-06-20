@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+body  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #000000;
+	background: #FFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	text-decoration: none;
+}
+/* delete default padding for these tags */
+p,h1,h2,h3,h4,ol,ul,li {
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	margin-bottom: 1em;
+}
+
+/* Basic page parms like width, bg, alignment  */
+#wrapper {
+	background:#FFF;
+	margin: 0 auto;
+	text-align:left;
+	width:100%;
+	min-width:1037px;
+
+}
+#topline {
+	width:1037px;
+	height:39px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFF;
+}
+#topleft {
+	width:360px;
+	height:39px;
+	background-image:url(images/ssltopleft.jpg);	
+	float:left;
+}
+#nav {
+	width:520px;
+	height:29px;
+	font-size:.8em;
+	font-weight:bold;
+	float:left;
+	padding-top:10px;
+	background-color:#FFF;
+
+}
+#topright {
+	width:157px;
+	height:39px;
+	float:left;
+	background-image:url(images/ssltopright.jpg);
+}
+
+#bannerColor {
+	width:100%;
+	height:313px;
+	background-color:#819fc9;
+}
+#bannerBG {
+	width:1037px;
+	margin-left:auto;
+	margin-right:auto;
+	height:313px;	
+}
+#bannerLeft {
+	width:504px;
+	height:313px;
+	float:left;  
+}
+#bannerRight {
+	width:533px;
+	height:313px;
+	float:left;	
+}
+#mainContent {
+	width:1037px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	min-height:499px;
+	background-color:#FFF;
+}
+#mainCol1 {
+	width:216px;
+	height:469px;
+	float:left;
+	padding:15px;	
+	text-align:left;
+}
+#mainCol2 {
+	width:529px;
+	height:auto;
+	float:left;
+	padding:15px 15px 0 15px;	
+	text-align:left;
+}
+#mainCol3 {
+	width:217px;
+	height:484px;
+	float:left;
+	padding:15px 15px 0 0;
+	text-align:left;
+}
+#footerColor {
+	width:100%;
+	height:133px;
+	background-color:#819fc9;
+	float:left;
+}
+#footer {
+	width:1037px;
+	margin-left:auto;
+	margin-right:auto;
+	height:133px;
+	font-size:.8em;
+	background-color:#819fc9;
+	color:#FFF;
+}
+#nav ul {
+	margin-left: 0;
+	padding-left: 0;
+	padding-top:10px;
+	display: inline;
+} 
+
+#nav ul li {
+	margin-left: 0;
+	padding: 10px 0 0 12px;
+	list-style: none;
+	display: inline;
+}
+		
+#nav ul li.first {
+	margin-left: 0;
+	border-left: none;
+	list-style: none;
+	display: inline;
+	color:#FFF;
+}
+
+.menu ul {
+	margin-left: 0;
+	padding-left: 0;
+	padding-top:10px;
+	display: inline;
+} 
+
+.menu ul li {
+	margin-left: 0;
+	padding: 10px 3px;
+/*	border-left: 1px solid #000;  */
+	list-style: none;
+	display: inline;
+}
+		
+.menu ul li.first {
+	margin-left: 0;
+	border-left: none;
+	list-style: none;
+	display: inline;
+	color:#FFF;
+}
+	
+a.navlink,a.navlink:visited,a.navlink:active {
+	text-decoration: none;
+	color: #4c8bed;
+}
+
+a.navlink:hover {
+	color: #FFF;
+	text-decoration:underline; 
+}
+a.ftrlink,a.ftrlink:visited,a.ftrlink:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+a.ftrlink:hover {
+	color: #FFF;
+	text-decoration:underline; 
+}
+a.homelink,a.homelink:visited,a.homelink:active {
+	font-size: 1.2em;
+	text-decoration: none;
+	color: #000;
+	letter-spacing: .1em;
+}
+
+a.homelink:hover {
+	color: #FFF;
+}
+
+.tdata1 {
+	font-size: .9em;
+	color: #091026;
+}
+.greentxt {
+	color:#539b56;
+}
+.bluetxt {
+	color:#4c8bed;
+}
+.tealtxt {
+	color:#5d919f;
+}
+.bluebanner {
+	color:#678cbe;
+}
+
+.footerText {
+	color:#FFF;
+	font-size:.8em;
+	padding-top:16px;
+	padding-bottom:10px;
+}
+ul#div-menu li { background: url(images/sep.gif) no repeat 2px -2px; }
+
+/* Bottom Boston Web Co credit line */
+#credit {
+	font-size: .7em;
+	font-weight: normal;
+	color: #000;
+	margin: 0px;
+	padding: 10px;
+	height: 20px;
+	width: 749px;
+	text-align: center;
+}
+
+
