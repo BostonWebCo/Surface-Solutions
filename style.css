@@ -445,3 +445,15 @@ a.partridgelink {
 #mainCol2{
     font-size: 11pt;
 }
+#mainCol2 ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 4em;
+    text-indent: -1em;
+}
+#mainCol2 li {
+}
+#mainCol2 li:before {
+    content: ':.';
+    padding-right: 7px;
+}
