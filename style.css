@@ -115,6 +115,8 @@ a, a:visited, a:active, a:hover {
 	float:left;
 	padding:15px 15px 0 0;
 	text-align:left;
+	font-size: 14px;
+    line-height: 20px;
 }
 #footerColor {
 	width:100%;
@@ -202,7 +204,9 @@ a.homelink,a.homelink:visited,a.homelink:active {
 a.homelink:hover {
 	color: #FFF;
 }
-
+li.current_page_item a {
+    color: grey !important;
+}
 .tdata1 {
 	font-size: .9em;
 	color: #091026;
@@ -431,3 +435,11 @@ a.partridgelink {
 .blue {
 	color: #0578ea;
 }
+#qualifications {
+    margin-top: 30px;
+    color: #2e808f;
+}
+#qualifications img {
+    padding-top: 10px;
+}
+
