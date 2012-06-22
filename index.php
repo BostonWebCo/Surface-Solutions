@@ -61,7 +61,7 @@ FDA Master Filed
       </div>
      <div id="footerColor">   
     		<div id="footer"><p class="footerText">&copy; Copyright 2012, Surface Solutions Laboratories, Inc. All Rights Reserved. SURFACE SOLUTIONS LABORATORIES<br />
-is a trademark of Surface Solutions Laboratories, Inc. registered in the United States Patent and Trademark Office.                 &nbsp;&nbsp;&nbsp;&nbsp;  Communication by:  Partridge Design  •  visual communications</p>                                                     
+is a trademark of Surface Solutions Laboratories, Inc. registered in the United States Patent and Trademark Office.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Communication by:  <a class="partridgelink" href="http://www.lauriepartridge.com/">Partridge Design  •  visual communications</a></p>                                                     
             
 <?php wp_nav_menu(array( 'theme_location' => 'bottom-menu', 'depth' => '1')); ?>
 <!--     <div class="menu">
