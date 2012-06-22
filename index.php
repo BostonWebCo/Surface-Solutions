@@ -25,13 +25,13 @@
           </ul>
 -->
        </div>
-       <div id="topright"></div>
+       <div id="topright"><img src="<?php echo $styledir; ?>/images/<?php if ( is_front_page() ) { echo 'ssltopright.jpg'; } else { echo 'subtopright.gif'; } ?>" width="157" height="39" alt="Surface Solutions" /></div>
     </div>
     
     <div id="bannerColor">
         <div id="bannerBG">
-             <div id="bannerLeft"><img src="<?php echo $styledir; ?>/images/sslbannerLeft.jpg" width="504" height="313" alt="Surface Solutions" /></div>
-        <div id="bannerRight"><img src="<?php echo $styledir; ?>/images/SSLBannerRight.jpg" width="533" height="313" alt="Surface Solutions" /></div>    
+             <div id="bannerLeft"><img src="<?php echo $styledir; ?>/images/<?php if ( is_front_page() ) { echo 'sslbannerLeft.jpg'; } else { echo 'sub-banner-left.jpg'; } ?>" width="504" height="313" alt="Surface Solutions" /></div>
+        <div id="bannerRight"><img src="<?php echo $styledir; ?>/images/<?php if ( is_front_page() ) { echo 'SSLBannerRight.jpg'; } else { echo 'sub-banner-right.jpg'; } ?>" width="533" height="313" alt="Surface Solutions" /></div>    
         </div>
     </div>
 	<div id="mainContent">
