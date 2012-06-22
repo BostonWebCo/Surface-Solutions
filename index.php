@@ -51,7 +51,7 @@
         <div id="mainCol3">
 	  <?php dynamic_sidebar(2); ?>
 <div id="qualifications">
-<?php $styledir = get_bloginfo('stylesheet_directory');?>
+<img src="<?php echo $styledir; ?>/images/c2go.gif"><br>
 <img src="<?php echo $styledir; ?>/images/qmed.gif"><br>
 QMed Qualified Supplier
 <img src="<?php echo $styledir; ?>/images/fda.gif"><br>

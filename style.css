@@ -155,14 +155,14 @@ a, a:visited, a:active, a:hover {
 	color:#FFF;
 }
 
-.menu ul {
+#footer ul.menu {
 	margin-left: 0;
 	padding-left: 0;
 	padding-top:10px;
 	display: inline;
 } 
 
-.menu ul li {
+#footer ul.menu li {
 	margin-left: 0;
 	padding: 10px 3px;
 /*	border-left: 1px solid #000;  */
@@ -170,7 +170,7 @@ a, a:visited, a:active, a:hover {
 	display: inline;
 }
 		
-.menu ul li.first {
+#footer ul.menu li.first {
 	margin-left: 0;
 	border-left: none;
 	list-style: none;
@@ -204,7 +204,7 @@ a.homelink,a.homelink:visited,a.homelink:active {
 a.homelink:hover {
 	color: #FFF;
 }
-li.current_page_item a {
+#nav li.current_page_item a {
     color: grey !important;
 }
 .tdata1 {
@@ -329,20 +329,21 @@ a img.aligncenter {
 /* END WordPress Core
 -------------------------------------------------------------- */
 
-#footer div.menu a {
+#footer ul.menu a {
     color: white;
     text-decoration: none;
 }
-#footer div.menu a:hover {
+#footer ul.menu a:hover {
     color: white;
 }
-#footer div.menu li:before {
+#footer ul.menu li:before {
     content: '| ';
     color: white;
     text-decoration: none;
-    margin-right: 5px;
+    margin-right: 6px;
+    vertical-align: 5%;
 }
-#footer div.menu li:first-of-type:before {
+#footer ul.menu li:first-of-type:before {
     content: "";
 }
 #mainCol1 {
